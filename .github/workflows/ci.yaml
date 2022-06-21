@@ -21,5 +21,4 @@ jobs:
             [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
             npm install --legacy-peer-deps
             pm2 delete all
-            cd ${{ secrets.ECOSYSTEM_PATH }}
-            pm2 start ecosystem.config.js
+            pm2 start npm --name "nextapp" -- start
