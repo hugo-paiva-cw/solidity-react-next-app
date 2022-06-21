@@ -34,7 +34,7 @@ class CampaignShow extends Component {
     const items = [
       {
         header: manager,
-        meta: "Address of Manager",
+        meta: "Endereço do gerente",
         description:
           "O gerente criou essa campanha e pode criar requisições para sacar o dinheiro.",
         style: { overflowWrap: "break-word" },
@@ -47,7 +47,7 @@ class CampaignShow extends Component {
       },
       {
         header: requestsCount,
-        meta: "Number of Requests",
+        meta: "Número de Requisições",
         description:
           "Uma requisição visa sacar dinheiro do contrato. Requisições devem ser aprovadas pelos aprovadores",
       },
